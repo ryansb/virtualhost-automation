@@ -1,0 +1,46 @@
+#cloud-config
+password: ChahP7SuYie7iagh
+ssh_pwauth: False
+chpasswd: { expire: False }
+
+ssh_authorized_keys:
+  - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDCWY47ypmHD8kK7sH7j5DSLGVRjeWXUBjpmebN5cbDH7/tCD9JKnmoiilpO33gsVBWCOYvNbOy+M4NCxzd+XgoCklbBOArlXdtVLFWlHN/LOImVZ+GtOp4G20/VfO5/3tOXYkgfQzlvx07AlcOIBMfE6nNtICmKxeSDlqWS47Oqg5uqZn5SZ4kjk3V/bkCADixIIob9yTlbbtVg6t+IBmJ5/8nRustpv89nYDRVar8H+n/GtYdc6IFptm8wvIvSNi6ncNz7IA3lQOysWfeYbaU2WwknRYtQaCQP6s94svUxBPiGC2fNO0GKnhL0+LVaOqvdz6VdWij5X8Kkpc2y+LKTe88OZDjBFyGPqJw6xI0C2wBLJEyyQnz4PT8Gzc8pkj38jiYvJS5rw5ZoZle7jdoMNec09gogvLI2m7HopVdIt38t33e3p7XbQ37mwdI2BTYCy+ztg+I7YRp1mOek+qGIAKcP1dKfc7MVIEnEX6c9geUqrYrG+HNUoWnGPgaPir76Ntko5uN7yZzqpVijnWW9/I2yHSfRIFuiDlpZ67Mfzagh1Wp147c7ja0b1TsXOefAv2/6+vCKnsSn9fooxrqxHqMOwklESMzFhm1EyaYQf0QtO5linai9KoY5zptAdTOhT8HTwuFv3+1B6p00WKuWvigD294iEc+4Kl7K4ysrQ== ryansb@kilo
+  - ssh-rsa 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 ryansb@carolina
+
+users:
+  - default
+  - name: stack
+    gecos: Mr Stack
+    homedir: /home/stack
+    sudo: "ALL=(ALL) NOPASSWD:ALL"
+    ssh-authorized-keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDCWY47ypmHD8kK7sH7j5DSLGVRjeWXUBjpmebN5cbDH7/tCD9JKnmoiilpO33gsVBWCOYvNbOy+M4NCxzd+XgoCklbBOArlXdtVLFWlHN/LOImVZ+GtOp4G20/VfO5/3tOXYkgfQzlvx07AlcOIBMfE6nNtICmKxeSDlqWS47Oqg5uqZn5SZ4kjk3V/bkCADixIIob9yTlbbtVg6t+IBmJ5/8nRustpv89nYDRVar8H+n/GtYdc6IFptm8wvIvSNi6ncNz7IA3lQOysWfeYbaU2WwknRYtQaCQP6s94svUxBPiGC2fNO0GKnhL0+LVaOqvdz6VdWij5X8Kkpc2y+LKTe88OZDjBFyGPqJw6xI0C2wBLJEyyQnz4PT8Gzc8pkj38jiYvJS5rw5ZoZle7jdoMNec09gogvLI2m7HopVdIt38t33e3p7XbQ37mwdI2BTYCy+ztg+I7YRp1mOek+qGIAKcP1dKfc7MVIEnEX6c9geUqrYrG+HNUoWnGPgaPir76Ntko5uN7yZzqpVijnWW9/I2yHSfRIFuiDlpZ67Mfzagh1Wp147c7ja0b1TsXOefAv2/6+vCKnsSn9fooxrqxHqMOwklESMzFhm1EyaYQf0QtO5linai9KoY5zptAdTOhT8HTwuFv3+1B6p00WKuWvigD294iEc+4Kl7K4ysrQ== ryansb@kilo
+
+packages:
+  - screen
+  - git
+
+package_upgrades: true
+
+write_files:
+  - content: |
+      [[local|localrc]]
+      ADMIN_PASSWORD=secrete
+      DATABASE_PASSWORD=$ADMIN_PASSWORD
+      RABBIT_PASSWORD=$ADMIN_PASSWORD
+      SERVICE_PASSWORD=$ADMIN_PASSWORD
+      SERVICE_TOKEN=a682f596-76f3-11e3-b3b2-e716f9080d50
+      SWIFT_HASH=66a3d6b56c1f479c8b4e70ab5c2000f5
+      SWIFT_REPLICAS=1
+      
+      #FIXED_RANGE=172.31.1.0/24
+      #FLOATING_RANGE=192.168.20.0/25
+      HOST_IP=192.168.122.58
+      
+      #RECLONE=yes
+      #PIP_UPGRADE=True
+      
+      enable_service heat h-api h-api-cfn h-eng
+      enable_service s-container s-proxy s-object s-account s-container
+      enable_plugin zaqar https://github.com/openstack/zaqar
+      enable_service zaqar-websocket zaqar-wsgi
