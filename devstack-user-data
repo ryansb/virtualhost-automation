@@ -19,11 +19,14 @@ users:
 packages:
   - screen
   - git
+  - redhat-lsb
+  - htop
 
 package_upgrades: true
 
 write_files:
-  - content: |
+  - path: /home/stack/local.conf
+    content: |
       [[local|localrc]]
       ADMIN_PASSWORD=secrete
       DATABASE_PASSWORD=$ADMIN_PASSWORD
