@@ -47,3 +47,8 @@ write_files:
       enable_service s-container s-proxy s-object s-account s-container
       enable_plugin zaqar https://github.com/openstack/zaqar
       enable_service zaqar-websocket zaqar-wsgi
+#
+runcmd:
+  - git clone https://git.openstack.org/openstack-dev/devstack /home/stack/devstack
+  - mv /home/stack/local.conf /home/stack/devstack/local.conf
+  - chown -R stack:stack /home/stack/devstack
